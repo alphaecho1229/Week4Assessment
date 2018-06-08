@@ -1,3 +1,9 @@
+library(readr)
+library(dplyr)
+library(tidyr)
+library(maps)
+library(graphics)
+
 fars_read <- function(filename) {
   if(!file.exists(filename))
     stop("file '", filename, "' does not exist")

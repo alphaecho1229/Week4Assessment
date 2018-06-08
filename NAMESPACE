@@ -5,7 +5,7 @@ export("fars_read", "make_filename", "fars_read_years",
 
 importFrom("readr", "read_csv")
 importFrom("dplyr", "tbl_df", "mutate", "select",
-           "bind_rows", "group_by", "summarize", "filter")
+           "bind_rows", "group_by", "summarize", "filter", "%>%")
 importFrom("maps", "map")
 importFrom("graphics", "points")
 importFrom("tidyr", "spread")
