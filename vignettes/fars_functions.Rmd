@@ -1,0 +1,36 @@
+---
+title: "Fars Functions"
+author: "Alex E."
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Overview
+
+The fars_functions package allows you to read in and summarize data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System; FARS is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
+
+The package consists of five functions to be used with the fars_data.zip file.
+
+## Functions
+
+fars_read will take a file name and attempt to read the file into a data frame. If it cannot, it returns a message that the file does not exist.
+
+make_filename will take a year to be examined and generate the file name necessary to read in the data with fars_read.
+
+fars_read_years will take a vector of years and use lapply to generate a file name and read the data in for each year. Any failures will result in the message "invalid year" for that year.
+
+fars_summarize_years will take a vector of years and call fars_read_years to read the data into a list of data frames, one data frame for each year. The function will then combine all data frames into one, group the rows by year and then by month, and summarize the data in a tidy format.
+
+fars_map_state takes a number corresponding to a state and a year and attempts to map all of the accidents occuring in that state for that year. If an invalid state number is given, or if there are no fatal accidents in that state for the given year, a message will be returned.
+
