@@ -15,9 +15,9 @@
 #' @return A list of dataframes, one for each year in years
 #'
 #' @examples
-#' fars_read_years(c(2016, 2017, 2018))
+#' fars_read_years(2014)
 #'
-#' years <- 2005:2014
+#' years <- 2013:2015
 #' data <- fars_read_years(years)
 #'
 #' @importFrom dplyr mutate

@@ -21,9 +21,9 @@
 #' with the summarized years as the column names.
 #'
 #' @examples
-#' fars_summarize_years(c(2005, 2010, 2015))
+#' fars_summarize_years(2015)
 #'
-#' years <- 2000:2009
+#' years <- 2013:2015
 #' df <- fars_summarize_years(years)
 #'
 #' @importFrom dplyr bind_rows
