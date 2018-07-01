@@ -17,9 +17,9 @@ This function takes a year and uses it to create a string representing a file na
 Will result in an error if the string cannot be coerced to an integer
 }
 \examples{
-make_filename("2018")
+make_filename("2015")
 
-year <- 2018
+year <- 2015
 fileName <- make_filename(year)
 
 }

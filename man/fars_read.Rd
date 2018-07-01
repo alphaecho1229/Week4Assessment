@@ -21,9 +21,9 @@ as a data frame. If the file does not exist, it returns
 a message that the file does not exist
 }
 \examples{
-fars_read("data.csv")
+fars_read("accident_2013.csv.bz2")
 
-name <- "data.csv"
+name <- "accident_2013.csv.bz2"
 fars_read(name)
 
 }
