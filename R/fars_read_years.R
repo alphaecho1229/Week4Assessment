@@ -22,7 +22,7 @@
 #'
 #' @importFrom dplyr mutate
 #' @importFrom dplyr select
-#' @importFrom dplyr >%>
+#' @importFrom dplyr %>%
 #'
 #' @export
 fars_read_years <- function(years) {
