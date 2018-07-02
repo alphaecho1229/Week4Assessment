@@ -12,7 +12,7 @@
 #'  the file does not exist
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' fars_read("accident_2013.csv.bz2")
 #'
 #' name <- "accident_2013.csv.bz2"

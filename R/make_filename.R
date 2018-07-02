@@ -8,7 +8,7 @@
 #' @return This function returns a string generated using the year provided
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' make_filename("2015")
 #'
 #' year <- 2015

@@ -15,7 +15,7 @@
 #' @return A list of dataframes, one for each year in years
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' fars_read_years(2014)
 #'
 #' years <- 2013:2015

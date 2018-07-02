@@ -21,7 +21,7 @@
 #' with the summarized years as the column names.
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' fars_summarize_years(2015)
 #'
 #' years <- 2013:2015

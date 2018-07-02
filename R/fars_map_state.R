@@ -23,7 +23,7 @@
 #' @return a map of a state showing locations of the accidents for a given year
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' fars_map_state(05, 2013)
 #'
 #' state <- 05
