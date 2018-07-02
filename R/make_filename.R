@@ -16,5 +16,6 @@
 #' @export
 make_filename <- function(year) {
   year <- as.integer(year)
-  sprintf("accident_%d.csv.bz2", year)
+  file <- sprintf("accident_%d.csv.bz2", year)
+  system.file("extdata", file, package = "Week4Assessment")
 }
