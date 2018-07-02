@@ -8,12 +8,10 @@
 #' @return This function returns a string generated using the year provided
 #'
 #' @examples
-#' \donttest{
-#' make_filename("2015")
+#' ## make_filename("2015")
 #'
-#' year <- 2015
-#' fileName <- make_filename(year)
-#' }
+#' ## year <- 2015
+#' ## fileName <- make_filename(year)
 #'
 #' @export
 make_filename <- function(year) {
