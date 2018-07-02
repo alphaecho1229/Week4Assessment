@@ -31,9 +31,10 @@ If years does not consist of strings or numerics representing the years to summa
 an error may result.
 }
 \examples{
-fars_summarize_years(2015)
 
-years <- 2013:2015
-df <- fars_summarize_years(years)
+## fars_summarize_years(2015)
+
+## years <- 2013:2015
+## df <- fars_summarize_years(years)
 
 }

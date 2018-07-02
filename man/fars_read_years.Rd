@@ -25,9 +25,9 @@ If fars_read() fails to read in data for a particular year,
 it prints a warning to the user and returns NULL.
 }
 \examples{
-fars_read_years(2014)
+## fars_read_years(2014)
 
-years <- 2013:2015
-data <- fars_read_years(years)
+## years <- 2013:2015
+## data <- fars_read_years(years)
 
 }

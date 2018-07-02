@@ -33,10 +33,10 @@ latitude values greater than 90 and turns them into NAs.
 The function then generates the map using longitude and latitude values for the points.
 }
 \examples{
-fars_map_state(05, 2013)
+## fars_map_state(05, 2013)
 
-state <- 05
-year <- 2013
-fars_map_state(state, year)
+## state <- 05
+## year <- 2013
+## fars_map_state(state, year)
 
 }
