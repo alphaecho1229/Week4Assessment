@@ -12,10 +12,12 @@
 #'  the file does not exist
 #'
 #' @examples
+#' \dontrun{
 #' fars_read("accident_2013.csv.bz2")
 #'
 #' name <- "accident_2013.csv.bz2"
 #' fars_read(name)
+#' }
 #'
 #' @importFrom readr read_csv
 #' @importFrom dplyr tbl_df

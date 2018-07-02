@@ -21,10 +21,12 @@
 #' with the summarized years as the column names.
 #'
 #' @examples
+#' \dontrun{
 #' fars_summarize_years(2015)
 #'
 #' years <- 2013:2015
 #' df <- fars_summarize_years(years)
+#' }
 #'
 #' @importFrom dplyr bind_rows
 #' @importFrom dplyr group_by

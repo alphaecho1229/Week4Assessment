@@ -15,10 +15,12 @@
 #' @return A list of dataframes, one for each year in years
 #'
 #' @examples
+#' \dontrun{
 #' fars_read_years(2014)
 #'
 #' years <- 2013:2015
 #' data <- fars_read_years(years)
+#' }
 #'
 #' @importFrom dplyr mutate
 #' @importFrom dplyr select

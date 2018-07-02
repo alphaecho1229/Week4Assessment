@@ -23,11 +23,13 @@
 #' @return a map of a state showing locations of the accidents for a given year
 #'
 #' @examples
+#' \dontrun{
 #' fars_map_state(05, 2013)
 #'
 #' state <- 05
 #' year <- 2013
 #' fars_map_state(state, year)
+#' }
 #'
 #' @importFrom dplyr filter
 #' @importFrom maps map
